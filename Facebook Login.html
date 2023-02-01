@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login</title>
+    <style>
+        *{
+            font-family: Arial,sans-serif;
+            
+            background-color: rgb(240, 238, 238);
+        }
+        h1{
+            color: rgb(0, 119, 255);
+            font-size: 80px;
+            margin: 15%;
+            margin-bottom: 10px;
+        }
+        .subheading{
+            margin: 15%;
+            margin-top:0% ;
+        }
+        form{
+            border: 1px solid white;
+            background-color: white;
+            width: 350px;
+            height: 350px;
+           margin-left: 55%;
+           margin-top: -30%;
+           border-radius: 10px;
+           
+        }
+        input{
+            width: 300px;
+            height: 25px;
+            display: block;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(189, 186, 186);
+            background-color: #fff;
+        } 
+        input:focus{
+            outline: none;
+            border:1px solid rgb(0, 110, 255);
+        }
+        .li{
+            width: 320px;
+            display: block;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            border: 1px solid rgb(189, 186, 186);
+            background-color: rgb(17, 120, 216);
+            color: white;
+            font-weight: bolder;
+            font-size: 20px;
+
+        }
+       div{
+            
+          color: rgb(0, 153, 255);
+           display: flex;
+           justify-content: center;
+           background-color: white;
+           cursor: pointer;
+          
+        }
+        div:hover{
+            text-decoration: underline;
+        }
+        .new{
+            background-color: rgb(8, 160, 3);
+            width: 200px;
+            display: block;
+            padding: 10px;
+            margin: 10px;
+            margin-left: 80px;
+            border-radius: 10px;
+            border: 1px solid rgb(189, 186, 186);
+            color: white;
+            font-weight: bolder;
+            font-size: 14px;
+
+            
+
+        }
+        hr{
+          width: 280px;
+        }
+        .footer{
+            margin-left: 55%;
+            margin-right: 0px;
+          
+        }
+        @media (max-width:900px) {
+            h1,.subheading{
+                margin: 0px;
+                margin-left: 30%;
+                width: 300px;
+                text-align: center;
+            }
+            form,.footer{
+                margin-left: 30%;
+                margin-top: 0px;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <h1>facebook</h1>
+    <p class="subheading">Facebook helps you connect and <br> share with the people in your life</p>
+    <form action="login">
+        <input type="email" placeholder="Email address or phone number">
+        <input type="password" placeholder="Password">
+        <button class="li">Log in</button><br>
+   <div>Forgotten password?<br></div> 
+         <hr>
+         <br>
+     <button class="new">Create new account</button>
+    </form>
+    <br>
+    <p class="footer"> <b> Create a page</b>for celebrity,brand or business</p>
+    
+</body>
+</html>
